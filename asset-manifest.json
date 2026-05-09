@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/batch18-react/static/css/main.61ef19e1.css",
-    "main.js": "/batch18-react/static/js/main.7b86d7ad.js",
+    "main.js": "/batch18-react/static/js/main.8f446dd2.js",
     "static/js/453.2f8bee45.chunk.js": "/batch18-react/static/js/453.2f8bee45.chunk.js",
     "index.html": "/batch18-react/index.html",
     "main.61ef19e1.css.map": "/batch18-react/static/css/main.61ef19e1.css.map",
-    "main.7b86d7ad.js.map": "/batch18-react/static/js/main.7b86d7ad.js.map",
+    "main.8f446dd2.js.map": "/batch18-react/static/js/main.8f446dd2.js.map",
     "453.2f8bee45.chunk.js.map": "/batch18-react/static/js/453.2f8bee45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61ef19e1.css",
-    "static/js/main.7b86d7ad.js"
+    "static/js/main.8f446dd2.js"
   ]
 }
