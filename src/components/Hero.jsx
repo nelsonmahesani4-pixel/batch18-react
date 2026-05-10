@@ -460,7 +460,7 @@ export default function Hero() {
               <a href="#featured" className="btn-primary hero__btn">
                 <span>🍴</span> Explore Dishes
               </a>
-
+              {/* Navigate product file */}
               <Link to ="/Product ">
               <a href="/Product" className="btn-outline hero__btn">
                 Browse Menu
