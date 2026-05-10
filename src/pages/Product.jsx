@@ -4,22 +4,39 @@ import ProductCard from '../components/ProductCard'
 import { Link } from 'react-router-dom';
 
 function Product() {
+
+  // Sare arrays ko merge karna
+  const allProducts = [
+    ...products.Starters,
+    ...products.Mains,
+    ...products.Desserts,
+    ...products.Drinks,   
+  ];
+
   return (
-    <div>
-        <Link to="/"><button>Go Back</button></Link>
+    <div style={{ display: "flex", flexWrap: "wrap", gap: "20px", padding: "20px" }}>
+
+      <Link to="/">
+        <button>Go Back</button>
+      </Link>
+
       {
-        products.map((product)=>{
-          return(
-           <div key={product.title}>
-            <Link   to={`/products/${product.title}`} >
-              <ProductCard product={product} />
-            </Link>
-           </div>
+        allProducts.map((product) => {
+          return (
+            <div key={product.name}>
+
+              <Link to={`/products/${encodeURIComponent(product.name)}`}>
+
+                <ProductCard product={product} />
+
+              </Link>
+
+            </div>
           )
         })
       }
+
     </div>
-   
   )
 }
 

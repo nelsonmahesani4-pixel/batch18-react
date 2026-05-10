@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -460,9 +461,11 @@ export default function Hero() {
                 <span>🍴</span> Explore Dishes
               </a>
 
-              <a href="#menu" className="btn-outline hero__btn">
+              <Link to ="/Product ">
+              <a href="/Product" className="btn-outline hero__btn">
                 Browse Menu
               </a>
+              </Link>
             </div>
 
             <div className="hero__stats">
